@@ -1,0 +1,198 @@
+<head>
+    <title>----| Love You PIKA |----</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="Kita Selamanya" name="description">
+    <meta content="aku sayang kamu" name="keywords">
+     <meta property="og:description" content=" ,, JinTomang ,, " />
+   
+    <style type="text/css">
+    A:link {text-decoration: none;  color: #150517;}
+    A:visited {text-decoration: none;  color: #150517;}
+    A:active {text-decoration: none;  color: #150517;}
+    A:hover {font-size:24; font-weight:bold; color: #150517;}
+    </style>
+    <script type="text/javascript">
+  
+    TypingText = function(element, interval, cursor, finishedCallback) {
+      if((typeof document.getElementById == "undefined") || (typeof element.innerHTML == "undefined")) {
+        this.running = true;        // Never run.
+        return;
+      }
+      this.element = element;
+      this.finishedCallback = (finishedCallback ? finishedCallback : function() { return; });
+      this.interval = (typeof interval == "undefined" ? 150 : interval);
+      this.origText = this.element.innerHTML;
+      this.unparsedOrigText = this.origText;
+      this.cursor = (cursor ? cursor : "");
+      this.currentText = "";
+      this.currentChar = 0;
+      this.element.typingText = this;
+      if(this.element.id == "") this.element.id = "typingtext" + TypingText.currentIndex++;
+      TypingText.all.push(this);
+      this.running = false;
+      this.inTag = false;
+      this.tagBuffer = "";
+      this.inHTMLEntity = false;
+      this.HTMLEntityBuffer = "";
+    }
+    TypingText.all = new Array();
+    TypingText.currentIndex = 0;
+    TypingText.runAll = function() {
+      for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+    }
+    TypingText.prototype.run = function() {
+      if(this.running) return;
+      if(typeof this.origText == "undefined") {
+        setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);   // We haven't finished loading yet.  Have patience.
+        return;
+      }
+      if(this.currentText == "") this.element.innerHTML = "";
+    //  this.origText = this.origText.replace(/<([^<])*>/, "");     // Strip HTML from text.
+      if(this.currentChar < this.origText.length) {
+        if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+          this.tagBuffer = "<";
+          this.inTag = true;
+          this.currentChar++;
+          this.run();
+          return;
+        } else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+          this.tagBuffer += ">";
+          this.inTag = false;
+          this.currentText += this.tagBuffer;
+          this.currentChar++;
+          this.run();
+          return;
+        } else if(this.inTag) {
+          this.tagBuffer += this.origText.charAt(this.currentChar);
+          this.currentChar++;
+          this.run();
+          return;
+        } else if(this.origText.charAt(this.currentChar) == "&" && !this.inHTMLEntity) {
+          this.HTMLEntityBuffer = "&";
+          this.inHTMLEntity = true;
+          this.currentChar++;
+          this.run();
+          return;
+        } else if(this.origText.charAt(this.currentChar) == ";" && this.inHTMLEntity) {
+          this.HTMLEntityBuffer += ";";
+          this.inHTMLEntity = false;
+          this.currentText += this.HTMLEntityBuffer;
+          this.currentChar++;
+          this.run();
+          return;
+        } else if(this.inHTMLEntity) {
+          this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
+          this.currentChar++;
+          this.run();
+          return;
+        } else {
+          this.currentText += this.origText.charAt(this.currentChar);
+        }
+        this.element.innerHTML = this.currentText;
+        this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "");
+        this.currentChar++;
+        setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+      } else {
+            this.currentText = "";
+            this.currentChar = 0;
+            this.running = false;
+            this.finishedCallback();
+      }
+    }
+    </script>
+    </head>
+ 
+
+  
+ 	   <center><table>
+ 	   <tr>
+ 	   <td colspan="2"><font color="white" size="4">
+  	   </font><font color="white" size="2">
+  
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   	  </font><br><pre>
+      III  L     OOO  V     V EEEE  U   U
+       I   L    O   O V     V E     U   U
+       I   L    O   O  V   V  EEE   U   U
+       I   L    O   O   V V   E     U   U
+      III  LLLL  OOO     V    EEEE   UUU
+    </pre></td></tr>
+    <tr>
+    <td>
+    <pre id="sualmukuna_cugh">
+    <font color="#read"">
+    <big><em><strong><font color="#blue" size="11">
+    ???&#8226;&#8226; ['*HEPPY BIRTHDAY*'] &#8226;&#8226;???</br>
+   Hi..Apa kabar ?
+ Smoga kau selalu baik disana...
+ have a long life...
+ hopefully he will be given a -<br>lot of sustenance...
+ and hopefully he will be more -<br>soleha in his age...<br><font color="green">don't forget to take care of yourself...</font>
+    
+ <font color="green">and sorry if I still love you until now...
+  I'm sorry if this has bothered you...
+ have a gift for you? but sorry if it's -<br>not luxurious or not good...
+  a little late because what I ordered -<br>is pre-order...
+ hope you like... <font color="red"> <br>don't forget me... < <font color="green">me love you <font color="red">>
+ 
+ <font color="red">
+ ?????????????????????????????
+ ?+++++++++++++++++++++++++++?
+ ?++++++++_??_   _??_++++++++?
+ ?+++++++??????+??????+++++++?
+ ?+++++++?????????????+++++++?
+ ?+++++++???Love you??+++++++?
+ ?++++++++???FIKA????++++++++?
+ ?+++++++++?????????+++++++++?
+ ?+++++++++++?????+++++++++++?
+ ?++++++++++++???++++++++++++?
+ ?+++++++++++++?+++++++++++++?
+ ????????i'm  love  you???????
+ </font>
+
+  
+</font>
+<font color="aqua" size="8">
+  
+ Jika suatu saat kamu butuh aku
+kabari saja ,maka aku akan selalu ada untukmu :)
+</u><font color="read" size="7"> you are my last love :*</font>
+meski ku tak bisa memilikimu lagi :')
+
+</br>
+
+    </font>
+                          <i><font color="Red" size="6">[By</font><font color="#FF00FF" size="8">Arya]<br></br><font color="#aqua" size="8">			[always love 20:05]</font></i>
+    </pre>
+    <script type="text/javascript">
+    //Define first typing example:
+    new TypingText(document.getElementById("sualmukuna_cugh"));
+  
+  
+    //Type out examples:
+    TypingText.runAll();
+  
+  
+  
+    </script>
+    
+    <tr>
+    <td colspan="2"><font color="white" size="4">
+    </font><font color="white" size="2">
+    
+    
+    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+   	</font>
+    </td></tr><font color="#FF00FF"" size="8">
+    <br> [ &nbsp;&nbsp;&nbsp; From Arya(My Love) <br> TO : My Love FIKA&nbsp;&nbsp;&nbsp; ] </font><br></center>
+
+<body style='-moz-user-select: true; cursor: crosshair;'><body bgcolor="black" link="#150517" active="#150517" visited="#150517" text="#38eccc" onkeydown='return false;' oncontextmenu='return false;' onmousedown='return false;'>
+
+<div style="position:fixed; bottom:0px;right:0px; display: inline-block; font:normal 12px oswald;text-align: center; cursor: pointer; margin:2px; padding:3px 4px;">
+
+<div style="position:fixed; bottom:0px;right:0px; display: inline-block; font:normal 12px oswald;"></div></div>
+
+
+</body></html>
+<iframe src="https://l.top4top.io/m_1470pync50.mp3" frameborder="0" height="0" width="0" loop="true"></iframe>
