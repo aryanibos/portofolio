@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 12px 0;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: medium;
+    padding: 15px 0px 7px 0px;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    height: 32px;
+    width: 100%;
+    /* Lebar 100% agar responsif */
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input {
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    -moz-appearance: none;
+    /* Firefox */
+    appearance: none;
+    /* Standard */
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}
+
+#header {
+    font-family: 'Candara';
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1080px;
+    width: 100%;
+    /* Lebar 100% pada layar kecil */
+    padding: 0 20px;
+    /* Ruang bantal di sekitar konten */
+    box-sizing: border-box;
+    /* Hindari penambahan lebar dari padding */
+}
+
+#contain {
+    padding: 35px 0px;
+    border: 2px dashed white;
+    margin-top: 65px;
+    /* Tambahkan jarak dari atas */
+}
+
+#section,
+#button,
+#formula {
+    display: flex;
+    justify-content: center;
+}
+
+.position {
+    display: inline-block;
+    /* Mengatur tombol konversi dan reset agar tampil di baris yang sama */
+}
+
+#section {
+    gap: 15px;
+}
+
+#button {
+    padding: 15px 20px 20px 20px;
+    /* Penyesuaian ruang bantal pada tombol */
+    gap: 20px;
+}
+
+#formula {
+    gap: 6px;
+}
+
+#title {
+    border: 2px solid #ffff;
+    border-radius: 25% 10%;
+    background-color: #ffff;
+    font-weight: 600;
+    color: black;
+    padding: 1px 2px;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#error {
+    color: red;
+}
+
+.value {
+    display: flex;
+}
+
+.larger {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.btn {
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+}
